@@ -1,0 +1,172 @@
+Title: Optimize your C executable/plugin with GCC/Strip</a
+Author: ZeekHalkyr
+Categori:Uncategorized
+Date: 2022-01-27
+Url: https://batch-man.com/optimize-your-c-executable-plugin-with-gcc-strip/
+Desc: In this article, we will use GCC and Strip to optimize our C applications.
+
+GitHub Link: github link not found.
+----------------------------------------
+
+Title: Evaluate complex math expressions in Batch with AC 1.0/1.1</a
+Author: ZeekHalkyr
+Categori:Uncategorized
+Date: 2022-01-27
+Url: https://batch-man.com/evaluate-complex-math-expressions-in-batch/
+Desc: One of the drawbacks of Batch is it&#8217;s lack of support for some compl
+ex math functions. This plugin, developed by Michael Bukowski can alleviate this
+ restriction for you. While it
+GitHub Link: github.com/Batch-Man/AC-1.1
+----------------------------------------
+
+Title: Easily create CMD plugins with the FnCreator template generator.</a
+Author: ZeekHalkyr
+Categori:Uncategorized
+Date: 2022-01-25
+Url: https://batch-man.com/batch-template-generator-fnc/
+Desc: Professional Batch plugins take a while to develop, and many developers ha
+ve their own collection of templates to easily skeleton a project. Because of th
+is, Karanveer Chouhan (Kvc) created his
+GitHub Link: github.com/Batch-Man
+----------------------------------------
+
+Title: Easy file manipulation with 4 CMD plugins</a
+Author: ZeekHalkyr
+Categori:Batch
+Date: 2022-01-24
+Url: https://batch-man.com/manipulate-files-line-in-batch/
+Desc: Manipulating file contents in Batch can be pretty tedious. Very much so if
+ you are not an expert and you need a solution quickly. Without plugins, you wou
+ld likely need
+GitHub Link: github.com/Batch-Man
+----------------------------------------
+
+Title: AS1-T1 | The Heliostat project - 1 year Research</a
+Author: Kvc
+Categori:Arduino/Electronics
+Date: 2021-12-10
+Url: https://batch-man.com/as1-t1/
+Desc: As you all know, that I have been working on my heliostat project from a l
+ong time now. I am really thankful to you all guys and especially my special
+GitHub Link: github link not found.
+----------------------------------------
+
+Title: Webhook Manager - Dead Simple & Light Web Server to Trigger Actions on Yo
+ur PC</a
+Author: SetLucas
+Categori:Uncategorized
+Date: 2021-07-05
+Url: https://batch-man.com/webhook-manager/
+Desc: Need a light and easy way to trigger actions on your PC from other network
+ed devices? Webhook Manager is a free, open source option!
+GitHub Link: github.com/adnanh/webhook
+----------------------------------------
+
+Title: DEFCON Warning System - Level Detection Tool</a
+Author: SetLucas
+Categori:Uncategorized
+Date: 2021-07-02
+Url: https://batch-man.com/defcon-warning-system-level-detection-tool/
+Desc: This tool alerts users of imminent nuclear war by utilizing defconwarnings
+ystem.com
+GitHub Link: github.com/ITCMD/CMDS
+----------------------------------------
+
+Title: How should a Scripting Project Look?</a
+Author: Kvc
+Categori:Coding Basics
+Date: 2021-03-02
+Url: https://batch-man.com/how-should-a-scripting-project-look/
+Desc: There is no standard procedure that might guide new scripting learners to
+professionally structure their projects. But nowadays, everyone is managing thei
+r project files as they like. This creates chaos
+GitHub Link: github link not found.
+----------------------------------------
+
+Title: Batch MAC Spoofer</a
+Author: TechnicalUserX
+Categori:Uncategorized
+Date: 2021-01-15
+Url: https://batch-man.com/batch-mac-spoofer/
+Desc: Windows has always been restrictive compared to Linux. While Linux develop
+ers are benefiting from the power of pure hardware, Windows users, on the other
+hand, were given GUI based user
+GitHub Link: github.com/TechnicalUserX/batch_spoofer
+----------------------------------------
+
+Title: Batch WI-FI Brute Forcer</a
+Author: TechnicalUserX
+Categori:Uncategorized
+Date: 2020-12-05
+Url: https://batch-man.com/batch-wi-fi-brute-forcer/
+Desc: This project is based upon the trick that, how to hack WI-FI with CMD. The
+ main purpose behind, creating wifi hacking tool with cmd tool is to make everyo
+ne aware
+GitHub Link: github.com/TheBATeam/Batch-WI-FI-Brute-Forcer
+----------------------------------------
+
+Title: WINPE DISM Manager (WDM) - by ITCMD</a
+Author: SetLucas
+Categori:Uncategorized
+Date: 2020-12-04
+Url: https://batch-man.com/wdm/
+Desc: WDM by IT Command adds a colorful text-based interface for managing WINPE
+Drives. It also adds some awesome features like backing up drives and previewing
+ changes.
+GitHub Link: github.com/ITCMD/DISM-Manager
+----------------------------------------
+
+Title: BatCenter - Make CMD More Powerful</a
+Author: Kvc
+Categori:Batch
+Date: 2020-12-04
+Url: https://batch-man.com/batcenter/
+Desc: CMD is much more powerful than we can imagine, and it has great potential
+&#8211; but it lacks the necessary tools. Bat Center is my attempt to make it ea
+sy
+GitHub Link: github.com/v3/
+----------------------------------------
+
+Title: CMDS - View and manage cmd.exe windows [Developer Tool]</a
+Author: SetLucas
+Categori:Batch
+Date: 2020-09-21
+Url: https://batch-man.com/cmds/
+Desc: Advanced coders may want to run a cmd.exe instance in the background. Howe
+ver, it can be hard to tell if it is running or not once you&#8217;ve launched i
+t. CMDS solves this issue with simple script commands and an interactive, text-b
+ased and ssh-friendly GUI!
+GitHub Link: github.com/ITCMD/CMDS
+----------------------------------------
+
+Title: Digital Logic B - Gates, Gates, Gates!</a
+Author: ZeekHalkyr
+Categori:Arduino/Electronics
+Date: 2020-09-21
+Url: https://batch-man.com/digital-logic-b-gates/
+Desc: In this article of Digital Logic, we discuss Truth Tables, as well as intr
+oduce the OR/NOT/XOR gates.
+GitHub Link: github link not found.
+----------------------------------------
+
+Title: In2Batch - Store Anything in a Batch File [Developer Tool]</a
+Author: SetLucas
+Categori:Batch
+Date: 2020-09-20
+Url: https://batch-man.com/in2batch/
+Desc: By using the built in Windows tool called certutil, In2Batch converts any
+file into a batch script you can include within your batch file.
+GitHub Link: github.com/ITCMD/In2Batch/releases
+----------------------------------------
+
+Title: Digital Logic A - Introduction And Logic Gates</a
+Author: ZeekHalkyr
+Categori:Computer Architecture
+Date: 2020-09-20
+Url: https://batch-man.com/digital-logic-gates-introduction/
+Desc: Logic Gates are a critical piece of every digital device today. In your CP
+U, there are millions if not billions of them. Logic Gates behave under Boolean
+Logic, where the state of a gate can be either True, or False. With this behavio
+r, you can combine and abstract these gates into the devices you use daily.
+GitHub Link: github link not found.
+----------------------------------------
