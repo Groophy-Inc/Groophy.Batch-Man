@@ -41,6 +41,8 @@ article[] a = Batch_Man_API.Get().ToArray();
 
 ![exa](https://user-images.githubusercontent.com/77299279/153057864-57fa5e22-6573-4f06-a1e3-1791bf4656ec.PNG)
 
+### Let's look at the whole list another way
+
 ```c#
             foreach (article b in a)
             {
@@ -54,6 +56,6 @@ article[] a = Batch_Man_API.Get().ToArray();
             }
 ```
 
-[Source Code](https://github.com/Groophy-Inc/Groophy.Batch-Man/blob/main/console_out.txt)
+[Console Output](https://github.com/Groophy-Inc/Groophy.Batch-Man/blob/main/console_out.txt)
 
 ~Groophy Lifefor
