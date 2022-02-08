@@ -58,4 +58,4 @@ article[] a = Batch_Man_API.Get().ToArray();
 
 [Console Output](https://github.com/Groophy-Inc/Groophy.Batch-Man/blob/main/console_out.txt)
 
-~Groophy Lifefor
+~Groophy Lifefor ' https://batch-man.com/
