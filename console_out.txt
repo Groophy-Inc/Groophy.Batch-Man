@@ -1,3 +1,5 @@
+THIS AN CMD OUTPUT.
+
 Title: Optimize your C executable/plugin with GCC/Strip</a
 Author: ZeekHalkyr
 Categori:Uncategorized
