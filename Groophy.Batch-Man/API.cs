@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Net;
 
@@ -9,21 +9,41 @@ namespace Groophy.Batch_Man
         public static List<article> Get()
         {
             string htmlCode = string.Empty;
-            Console.WriteLine(0);
             using (WebClient client = new WebClient())
             {
                 client.Headers.Add("user-agent", "B-M_Api");
                 htmlCode = client.DownloadString("https://batch-man.com/");
             }
-            Console.WriteLine(0);
-            string[] bt = Between(htmlCode, "<article", "</article");
-            Console.WriteLine(0);
+            List<string> bt = Between(htmlCode, "<article", "</article");
             List<article> a = new List<article>();
-            for (int i = 0; i < bt.Length; i++)
+            for (int i = 0; i < bt.Count; i++)
             {
                 a.Add(filter(bt[i]));
             }
-            Console.WriteLine(0);
+
+            int c = 2;
+            string ht2 = string.Empty;
+            for (; ; )
+            {
+                using (WebClient client = new WebClient())
+                {
+                    client.Headers.Add("user-agent", "B-M_Api");
+                    ht2 = client.DownloadString("https://batch-man.com/page/"+c.ToString());
+                }
+                List<string> b2 = Between(ht2, "<article", "</article");
+                for (int i = 0; i < b2.Count; i++)
+                {
+                    a.Add(filter(b2[i]));
+                }
+                if (ht2.IndexOf("class=\"next page-numbers\"") != -1)
+                {
+                    c++;
+                }
+                else
+                {
+                    break;
+                }
+            }
             return a;
         }
 
@@ -31,10 +51,11 @@ namespace Groophy.Batch_Man
         {
             title = title.Replace("&#8211;", "-");
             title = title.Replace("&amp;", "&");
+            title = title.Replace("&#8217;", "'");
             return title;
         }
 
-        private static string[] Between(string input, string startMatch, string endMatch)
+        private static List<string> Between(string input, string startMatch, string endMatch)
         {
             List<string> ret = new List<string>();
             try
@@ -49,7 +70,7 @@ namespace Groophy.Batch_Man
                     st += arys[i].Length;
                     se += arye[i].Length;
                 }
-                return ret.ToArray();
+                return ret;
             }
             finally
             {
@@ -121,7 +142,7 @@ namespace Groophy.Batch_Man
                     eide--;
                 }
             }
-            a.desc = dat.Substring(side, eide - side - 1);
+            a.desc = fixtitle(dat.Substring(side, eide - side - 1));
             #endregion
             #region article title
             //<!-- .entry-content end -->
@@ -153,7 +174,7 @@ namespace Groophy.Batch_Man
                     sia--;
                 }
             }
-            a.articletitle = fixtitle(dat.Substring(sia + 3, eia - sia));
+            a.articletitle = fixtitle(dat.Substring(sia + 3, eia - sia - 3));
 
             #endregion
             #region git download link
