@@ -58,4 +58,14 @@ article[] a = Batch_Man_API.Get().ToArray();
 
 [Console Output](https://github.com/Groophy-Inc/Groophy.Batch-Man/blob/main/console_out.txt)
 
+### Change Logs
+#### 1.0.0
+A basic start
+#### 1.0.1
+``` &#8211; ```, ``` &amp; ```, ``` k\"> ```, ```</a``` fixed.
+#### 1.0.2
+``` &#8217; ``` fixed.
+Multi page render added.
+
+
 ~Groophy Lifefor ' https://batch-man.com/
