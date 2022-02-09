@@ -56,7 +56,8 @@ article[] a = Batch_Man_API.Get().ToArray();
             }
 ```
 
-[Console Output](https://github.com/Groophy-Inc/Groophy.Batch-Man/blob/main/console_out.txt)
+[Console Output 1.0.1](https://github.com/Groophy-Inc/Groophy.Batch-Man/blob/main/console_out.txt)
+[Console Output 1.0.2](https://github.com/Groophy-Inc/Groophy.Batch-Man/blob/main/1.0.2_console_out.txt)
 
 ### Change Logs
 #### 1.0.0
